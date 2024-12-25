@@ -1,0 +1,685 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.header {
+    height: 70px;
+    background-color: wheat;
+}
+
+.header-inner {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navigation ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header-navigation ul li a {
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    transition: .2s linear;
+}
+
+.header-navigation ul li a:hover {
+    color: limegreen;
+}
+
+.menu {
+    display: none;
+    position: relative;
+}
+
+.burger {
+    background-color: orange;
+}
+
+.check {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.header-navigation button {
+    width: 40px;
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.burger ul {
+    background-color:  black;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    top: 30px;
+    left: -60px;
+    display: none; 
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+
+.categories-inner h1{
+    padding-top: 15px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.categories-inner p {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.categories-inner img {
+    width: 100%;
+    height: 100%; 
+    opacity: 100%;
+    border: none;
+    border-radius: 15px;
+}
+
+.about-inner h1{
+    padding-top: 15px;
+    text-align: center;
+    max-width: 250px;
+}
+
+.about-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.products-inner{
+    max-width: 1147px;
+    height: 142px;
+    margin-top: 15px;
+   margin-left: 15px;
+    
+}
+
+.products-inner img {
+    width: 100%;
+    height: 150%;
+}
+
+.paragraphs {
+    color: orange;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-left: 200px;
+    font-family: "Playwrite HR Lijeva", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.paragraph {
+    color: orange;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 10px;
+    font-family: "Playwrite HR Lijeva", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.vegetables-inner{
+    margin-top: 230px;
+}
+
+.foods{
+    row-gap: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.food {
+    width: 370px;
+    height: 370px;
+}
+
+.h1 {
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.copy {
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 200px;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.yap {
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.money {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 600;
+    color: limegreen;
+}
+
+.gap {
+    margin-top: 10px;
+}
+
+.fresh-inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    max-width: 1200px;
+    height: 300px;
+}
+
+.fresh-inner-a2 img {
+    width: 100%;
+}
+
+.fresh-inner-a1 img{
+    width: 100%;
+}
+
+.fresh-add {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fresh-add img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.another {
+    width: 100%;
+    height: 300px;
+}
+
+.sales {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.sale {
+    width: 270px;
+    height: 270px;
+}
+
+.reasons-inner {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 300px;
+    max-width: 1150px;
+    min-height: 500px;
+}
+
+.reason-inner-p1 img {
+    width: 100%;
+    height: 500px;
+}
+
+
+.rev-inner-photo{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    margin-left: 20px;
+}
+
+.h2 {
+    max-width: 400px;
+    height: 300px;
+}
+
+.farmer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.footer {
+    max-width: 1200px;
+}
+
+.about-inner img{
+    max-width: 700px;
+    height: 200px;
+}
+
+.tractor-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 50px;
+}
+
+.tractor-inner-tractor {
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.tractor-inner-tractor img {
+    border-radius: 10px;
+    width: 450px;
+}
+
+.tractor-inner-text {
+    max-width: 500px;
+    margin-top: 100px;
+}
+
+.get {
+    color: orange;
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.hI {
+    font-weight: 600;
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.variants {
+    padding-top: 20px;
+    color: green;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.variant {
+    padding-top: 20px;
+    color: gray;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.checking {
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.j1 {
+padding-top: 70px;
+}
+
+.button {
+    margin-top: 90px;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgba(75, 175, 71,100%);
+
+}
+
+.experts-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    background-color: black;
+    height: 100px;
+}
+
+.experts-inner p{
+    font-size: 20px;
+    color: gray;
+}
+
+.comment-inner-photo{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.lex {
+    max-width: 400px;
+}
+
+.video-inner img {
+    margin-top: 100px;
+    max-width: 1200px;
+    height: 400px;
+}
+
+.meet-inner-photo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+.blank-inner {
+    height: 100px;
+}
+
+.services-inner img {
+    max-width: 1200px;
+}
+
+.farming-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.growth-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    column-gap: 50px;
+}
+
+.growth-inner-photo {
+    margin-top: 100px;
+}
+
+.growth-inner-text {
+    margin-top: 100px;
+    max-width: 600px;
+}
+
+.popular-inner {
+    margin-top: 100px;
+}
+
+.popular-inner img {
+    max-width: 1200px;
+}
+
+.professional {
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.reason-inner-p2 {
+    max-width: 750px;
+}
+
+.servicess {
+    max-width: 200px;
+    height: 280px;
+
+} 
+
+.m1 {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+}
+
+.products-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.professional img {
+    width: 64px;
+    height: 64px;
+}
+
+.best-inner {
+    margin-top: 50px;
+    max-width:  1200px;
+    min-height: 200px;
+    background-color: rgba(75,175,71,100%)
+}
+
+ .buy {
+    border-radius: 10%;
+    border: none;
+    margin-left: 800px;
+    width: 197px;
+    height: 60px;
+    background-color: rgba(238,192,68,100%);
+    color: white; 
+ }
+
+
+
+.check:checked ~ .list {
+        display: block;
+}
+
+
+@media (max-width: 768px) {
+
+    .menu {
+        display: block;
+    }
+
+    .header-navigation ul {
+        display: none;
+    }
+
+}
+
+@media (max-width: 440px) {
+
+    .reason-inner-p1 img {
+        height: 540px;
+    }
+
+    .sales{
+    gap: 100px;
+    }
+
+    .h1 {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .hI {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .farmers img {
+        width: 200px;
+    }
+
+    .thumb {
+        max-width: 200px;
+    }
+
+    .reasons-inner img{
+        width: 300px;
+    }
+
+    .sale img{
+        margin-left: 30px;
+        width: 200px;
+    }
+
+    .photo  {
+        max-width: 400px;
+    }
+
+    .farming-inner img {
+        max-width: 200px;
+    }
+
+    .growth-inner-photo img {
+        width: 200px;
+    }
+
+    .food {
+        width: 250px;
+    }
+
+    .food img {
+        width: 250px;
+    }
+}
+
+
+
+@media (max-width: 1229px) {
+        .another{
+            margin-top: 250px;
+        }
+
+        .fresh-inner {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+
+        .sales{
+            gap: 100px;
+            }
+    
+
+        .farmers img {
+            width: 200px;
+        }
+
+        .professional {
+            font-size: 17px;
+        }
+
+        .variant {
+            font-size: 14px;
+        }
+
+        .growth-inner-photo {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .growth-inner {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .servicess {
+           max-width:100px
+        }
+
+        .servicess img {
+            width: 100%;
+        }
+
+        .footer-main-content-inner {
+            display: flex;
+            gap: 50px;
+        }
+
+        .best-inner {
+            text-align: center;
+        }
+
+        .copy {
+            margin-left: 0px;
+            margin-bottom: 12px;
+        }
+
+        .paragraphs {
+            padding-left: 0px;
+        }
+        
+        
+}
+
+
+@media (max-width:514px) {
+    .growth-inner-photo img {
+        width: 300px;
+    }
+
+    .tractor-inner img {
+        max-width: 250px;
+    }
+
+    .photos img {
+        max-width: 200px;
+    }
+
+    .copy {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:340px) {
+    .reasons-inner img {
+        width: 200px;
+    }
+}
+
+@media (max-width:1020px) {
+    .buy {
+        margin: 0 auto;
+     }
+}
